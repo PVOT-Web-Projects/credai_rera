@@ -21,9 +21,11 @@
   font-family: HindVadodara-SemiBold;
   src: url("font/HindVadodara-SemiBold.ttf");
 }
+html{
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
-  /* overflow-x:hidden!important; */
   scroll-behavior: smooth;
 }
 body::-webkit-scrollbar {
