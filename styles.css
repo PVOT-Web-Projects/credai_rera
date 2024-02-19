@@ -2341,6 +2341,7 @@ input.check-toggle-round-flat + label:before {
   text-align: center;
   padding-top: 6rem;
   font-size: 47px;
+  font-family: "Roobert-Regular";
 }
 .footer-icons {
   display: flex;
