@@ -21,7 +21,7 @@
   font-family: HindVadodara-SemiBold;
   src: url("font/HindVadodara-SemiBold.ttf");
 }
-html{
+html {
   scroll-behavior: smooth;
 }
 body {
@@ -108,6 +108,47 @@ header:hover {
   justify-content: space-between;
   align-items: center;
   width: 100vw;
+ 
+  
+}
+.mail_header
+{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0;
+  font-family: "Roobert-Medium";
+}
+.mail_header a
+{
+  color: #000;
+  text-shadow: none;
+}
+.tel_header
+{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 60px;
+  letter-spacing: 0em;
+  text-align: left;
+ 
+  margin: 0;
+}
+.tel_header a
+{
+  color: green;
+  text-shadow: none;
+}
+.img_footer_header {
+  font-family: "Roobert-Medium";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 60px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-right: 80px;
 }
 
 .navlinks li {
@@ -134,7 +175,7 @@ header:hover {
   margin-top: 50px;
 }
 
-.logoItemImages{
+.logoItemImages {
   object-fit: contain;
   mix-blend-mode: color-burn;
   aspect-ratio: 4/2;
@@ -249,6 +290,16 @@ h2 {
   .navlinks ion-icon {
     display: none;
   }
+
+}
+@media only screen and (max-width: 920px) {
+ .navbar
+ {
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+ }
+
 }
 
 @media only screen and (max-width: 920px) {
@@ -269,7 +320,7 @@ h2 {
     padding: 0;
   }
   .navbar {
-    padding: 0;
+    /* padding: 0; */
   }
   .nav_img {
     padding-left: 1rem;
@@ -1060,7 +1111,7 @@ h2 {
 .voice_section {
   margin: 3rem 0rem 0rem 0rem;
 }
-.line_underscore.voice{
+.line_underscore.voice {
   margin: 8px 0;
 }
 
@@ -1165,7 +1216,7 @@ audio,
 canvas,
 video {
   display: inline;
-  zoom: 1.4 !important;
+
 }
 
 .iframe-wrapper .close-video {
@@ -1181,9 +1232,14 @@ video {
 }
 
 /* Media Queries */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .card_width_main {
     width: 33.33%;
+  }
+} */
+@media (max-width: 820px) {
+  .card_width_main {
+    width: 50%;
   }
 }
 @media (max-width: 576px) {
@@ -1193,7 +1249,7 @@ video {
 }
 @media (max-width: 575px) {
   .text {
-    height: 5rem;
+    height: 7rem;
   }
   .imgss {
     margin-bottom: 5px;
@@ -1351,8 +1407,8 @@ video {
   text-align: left;
 }
 
-.imageText{
-  font-family: Roobert-Regular; 
+.imageText {
+  font-family: Roobert-Regular;
   font-size: 12px;
   font-weight: 500;
 }
@@ -1450,7 +1506,7 @@ video {
   color: white;
   font-size: 16px;
 }
-.logoItem img{
+.logoItem img {
   width: 150px;
 }
 
@@ -1512,7 +1568,8 @@ video {
   }
   .video-popup {
     left: 43% !important;
-    background-color: transparent !important;
+    background-color: transparent !important;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+                                                                               ;
   }
   .iframe-wrapper .close-video {
     content: "";
@@ -1520,14 +1577,14 @@ video {
     width: 25px;
     height: 25px;
     top: 8px;
-    right: 158px;
+    right: 0px;
     background: url(images/close.svg);
     border-radius: 50%;
     background-size: cover;
   }
   .credai_banner_image {
     height: auto;
-    max-width: 100%;
+    max-width: 100%;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
   }
   .logo_container {
     padding: 0 2rem;
@@ -1620,6 +1677,17 @@ video {
   }
 }
 
+@media only screen and (max-width: 321px) {
+  .credai_flex_video_text2,
+  .credai_flex_video_text1 {
+    font-size: 22px;
+  }
+  .credai_flex_video_text {
+
+    left:5%;
+  
+  }
+}
 /* section - 8 */
 
 .background_color_section {
@@ -1903,7 +1971,7 @@ video {
   text-align: left;
   width: 90%;
 }
-.accordion-content p{
+.accordion-content p {
   line-height: 20px;
 }
 
@@ -2231,7 +2299,7 @@ input.check-toggle-round-flat:checked + label:after {
   display: flex;
   justify-content: right;
 }
-.footer_link a{
+.footer_link a {
   margin-left: 5px;
 }
 
@@ -2286,7 +2354,7 @@ input.check-toggle-round-flat:checked + label:after {
 }
 
 .img_footer1 {
-  /* font-family: Roobert; */
+  font-family: "Roobert-Medium";
   font-size: 47px;
   font-weight: 500;
   line-height: 60px;
@@ -2357,6 +2425,12 @@ input.check-toggle-round-flat + label:before {
 }
 .footer-icons {
   display: flex;
+}
+.logo {
+  display: block;
+}
+.logoMobile {
+  display: none;
 }
 
 @media screen and (min-width: 1500px) {
@@ -2565,7 +2639,7 @@ input.check-toggle-round-flat + label:before {
   .nav_item {
     font-size: 15px;
   }
-  .nav_img img{
+  .nav_img img {
     width: 100px;
   }
 }
@@ -2597,6 +2671,15 @@ input.check-toggle-round-flat + label:before {
   }
   .footer-icons img {
     width: 32px;
+  }
+}
+
+@media(max-width:920px){
+  .logo {
+    display: none;
+  }
+  .logoMobile {
+    display: block;
   }
 }
 @media (max-width: 767px) {
@@ -2708,7 +2791,7 @@ input.check-toggle-round-flat + label:before {
     width: 180px;
     z-index: 2;
   }
-  .footer_container{
+  .footer_container {
     margin: 1rem;
   }
 }
