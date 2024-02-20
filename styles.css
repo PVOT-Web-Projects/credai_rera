@@ -309,7 +309,7 @@ h2 {
   header {
     position: sticky;
     top: 0;
-  }
+  }                    
   .navbar {
     position: absolute;
     top: 0;
@@ -1210,6 +1210,8 @@ h2 {
 
 .iframe-wrapper {
   position: relative;
+  /* background-color: #2e2b2b8f;
+  height: 100vh; */
 }
 
 audio,
@@ -1225,7 +1227,7 @@ video {
   width: 25px;
   height: 25px;
   top: 5px;
-  right: -375px;
+  right: 0;
   background: url("images/close.svg");
   border-radius: 50%;
   background-size: cover;
@@ -1567,8 +1569,8 @@ video {
     font-size: 15px;
   }
   .video-popup {
-    left: 43% !important;
-    background-color: transparent !important;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+    /* left: 43% !important; */
+    /* background-color: transparent !important;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           */
                                                                                ;
   }
   .iframe-wrapper .close-video {
@@ -1577,7 +1579,7 @@ video {
     width: 25px;
     height: 25px;
     top: 8px;
-    right: 0px;
+    right: 0px!important;
     background: url(images/close.svg);
     border-radius: 50%;
     background-size: cover;
@@ -1598,6 +1600,10 @@ video {
   .logo_container {
     padding: 0 1.5rem;
     gap: 1.5rem;
+  }
+  video{
+    width:250px;
+
   }
   /* .logoItem{
     width: 28%;
@@ -2375,7 +2381,7 @@ input.check-toggle-round-flat:checked + label:after {
 }
 
 .video_thmb {
-  max-width: 100%;
+  width: 100%;
   display: block;
 }
 
@@ -2559,7 +2565,7 @@ input.check-toggle-round-flat + label:before {
   .text {
     padding-left: 15px;
   }
-  .video-popup {
+  /* .video-popup {
     position: fixed;
     top: 50%;
     left: 33%;
@@ -2570,14 +2576,14 @@ input.check-toggle-round-flat + label:before {
     top: 18%; */
     /* bottom: 0; */
     /* left: 0; */
-    display: flex !important;
+    /* display: flex !important;
     justify-content: center;
     align-items: center;
     z-index: 998;
     background: rgba(0, 0, 0, 0.7);
     cursor: pointer;
     display: none !important;
-  }
+  }  */
   .new_flex {
     align-items: center;
   }
