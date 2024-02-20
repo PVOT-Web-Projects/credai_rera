@@ -137,7 +137,7 @@ header:hover {
 .logoItemImages{
   object-fit: contain;
   mix-blend-mode: color-burn;
-  aspect-ratio: 3/2;
+  aspect-ratio: 4/2;
 }
 
 .button_nav {
@@ -970,7 +970,7 @@ h2 {
   }
 
   .credai_diffrence_text {
-    font-size: 17px;
+    font-size: 22px;
   }
 
   .credai_diffrence_container_lowerpart,
@@ -1222,7 +1222,7 @@ video {
 
 .section_slider_background {
   /* background-color: #f0f0f0; */
-  padding-bottom: 4rem;
+  padding-bottom: 2rem;
 }
 
 .first_slider_title {
@@ -2679,7 +2679,7 @@ input.check-toggle-round-flat + label:before {
     padding: 0;
   }
   .img_footer {
-    width: 100%;
+    width: 75%;
     /* margin: 0 0 20px; */
   }
   .footer-icons img {
