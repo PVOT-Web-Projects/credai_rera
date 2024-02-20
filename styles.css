@@ -970,7 +970,7 @@ h2 {
   }
 
   .credai_diffrence_text {
-    font-size: 22px;
+    font-size: 26px;
   }
 
   .credai_diffrence_container_lowerpart,
@@ -1826,7 +1826,7 @@ video {
 
 .accordion button[aria-expanded="true"] + .accordion-content {
   opacity: 1;
-  max-height: 9em;
+  max-height: 100%;
   transition: all 1s linear;
   will-change: opacity, max-height;
 }
