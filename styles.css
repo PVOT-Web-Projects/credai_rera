@@ -2666,7 +2666,7 @@ input.check-toggle-round-flat + label:before {
     padding: 0;
   }
   .img_footer {
-    width: 100%;
+    width: 120px;
     /* margin: 0 0 20px; */
   }
   .footer-icons img {
@@ -2694,5 +2694,8 @@ input.check-toggle-round-flat + label:before {
     position: absolute;
     width: 180px;
     z-index: 2;
+  }
+  .footer_container{
+    margin: 1rem;
   }
 }
