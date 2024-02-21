@@ -1132,6 +1132,84 @@ h2 {
 }
 
 /* section 5 */
+
+.spacing{
+  padding: 3rem 6rem 4rem 6rem;
+}
+
+.flex{
+  display: flex;
+  gap: 10px;
+}
+
+.voice_outer{
+  background-color: #157d43;
+  padding: 3.1rem 2rem;
+  /* width: 530px;
+  height: 335px; */
+}
+.outer_second{
+  background-color: #123C63;
+
+}
+.voice_Text{
+  color: white;
+    font-size: 50px;
+    font-weight: 500;
+    font-family: "Roobert-Regular";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex_1{
+  width:50%
+}
+
+.flex_2{
+  width:50%
+}
+
+
+.inner_Flex{
+  gap: 10px;
+  display: flex;
+  width:100%
+}
+
+.onlyForSpace{
+  margin-top: 10px;
+}
+
+/* .section5_image_outer{
+ margin: 5px 5px;
+} */
+
+.section5_image{
+  height: 100%;
+  width: 100%;
+  
+}
+
+
+.englishText{
+  font-family: "Roobert-Regular";
+  font-size: 17px;
+  width:85%;
+}
+
+.hindiText{
+  font-family: "HindVadodara-Medium";
+  font-size: 17px;
+  width:85%;
+}
+
+
+
+
+
+
+
 .container_grid {
   width: 100%;
 }
