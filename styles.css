@@ -1144,12 +1144,12 @@ h2 {
 
 .voice_outer{
   background-color: #157d43;
-  padding: 3.1rem 2rem;
-  /* width: 530px;
-  height: 335px; */
+  padding: 7.9rem 2rem;
+
 }
 .outer_second{
   background-color: #123C63;
+  padding: 7.9rem 0rem;
 
 }
 .voice_Text{
@@ -1163,13 +1163,24 @@ h2 {
 }
 
 .flex_1{
-  width:50%
+  width:50%;
+  height:100%;
 }
 
 .flex_2{
+  width:50%;
+  height:100%;
+}
+
+
+.inner_Flex1{
   width:50%
 }
 
+
+.inner_Flex2{
+  width:50%
+}
 
 .inner_Flex{
   gap: 10px;
@@ -1181,12 +1192,11 @@ h2 {
   margin-top: 10px;
 }
 
-/* .section5_image_outer{
- margin: 5px 5px;
-} */
 
 .section5_image{
-  height: 100%;
+  height:auto;
+  /* aspect-ratio: 16/9; */
+  object-fit: cover;
   width: 100%;
   
 }
@@ -1195,14 +1205,219 @@ h2 {
 .englishText{
   font-family: "Roobert-Regular";
   font-size: 17px;
-  width:85%;
+  width:80%;
+}
+
+.pSpacing{
+ padding:15px 20px;
 }
 
 .hindiText{
   font-family: "HindVadodara-Medium";
+  line-height: 27.71px;
   font-size: 17px;
-  width:85%;
+  margin-top: 5px;
+  width:80%;
 }
+
+
+
+
+@media(max-width:1024px){
+  .voice_outer{
+    background-color: #157d43;
+    padding: 4rem 0rem;
+  
+  }
+  .outer_second{
+    background-color: #123C63;
+    padding: 3.5rem 0rem;
+  
+  }
+  .voice_Text{
+    color: white;
+      font-size: 40px;
+      font-weight: 500;
+      font-family: "Roobert-Regular";
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .englishText{
+    font-family: "Roobert-Regular";
+    font-size: 16px;
+    width:100%;
+  }
+  
+  .pSpacing{
+    padding: 15px 10px 0px 15px;
+  }
+  
+  .hindiText{
+    font-family: "HindVadodara-Medium";
+    line-height: 27.71px;
+    font-size: 16px;
+    margin-top: 5px;
+    width:100%;
+  }
+
+
+}
+
+@media(max-width:768px){
+  .spacing{
+    padding: 3rem 2rem 4rem 2rem;
+  }
+  .voice_outer{
+    background-color: #157d43;
+    padding: 2.9rem 0rem;
+  
+  }
+
+  .pSpacing{
+    padding: 15px 10px 0px 15px;
+  }
+  .voice_Text{
+    font-size: 38px;
+  }
+
+
+  .englishText{
+    font-family: "Roobert-Regular";
+    font-size: 14px;
+    width:100%;
+  }
+
+  
+  .hindiText{
+    font-family: "HindVadodara-Medium";
+    line-height: 25px;
+    font-size: 14px;
+    margin-top: 5px;
+    width:100%;
+  }
+
+
+
+  .outer_second{
+    background-color: #123C63;
+    padding: 1.5rem 0rem;
+  
+  }
+}
+
+
+@media(min-width:375px)and (max-width:500px){
+  .flex{
+    display: block;
+  }
+
+  .spacing{
+    padding: 3rem 1.8rem 4rem 1.8rem;
+  }
+
+  .flex_1{
+    width:100%;
+    height:100%;
+  }
+  
+  .flex_2{
+    width:100%;
+    height:100%;
+  }
+  .voice_outer {
+    padding: 1rem 0rem;
+  
+}
+.englishText{
+  font-family: "Roobert-Regular";
+  font-size: 12px;
+  width:100%;
+}
+
+
+.hindiText{
+  font-family: "HindVadodara-Medium";
+  line-height: 23px;
+  font-size: 12px;
+  margin-top: 5px;
+  width:100%;
+}
+.pSpacing{
+  padding: 10px 0px 0px 0px;
+}
+.inner_Flex{
+  margin-top: 10px;
+}
+
+}
+
+
+
+@media(min-width:220px)and (max-width:320px){
+  .flex{
+    display: block;
+  }
+
+  .spacing{
+    padding: 3rem 1.8rem 4rem 1.8rem;
+  }
+
+  .flex_1{
+    width:100%;
+    height:100%;
+  }
+  
+  .flex_2{
+    width:100%;
+    height:100%;
+  }
+  .voice_outer {
+    padding: 1rem 0rem;
+  
+}
+.englishText{
+  font-family: "Roobert-Regular";
+  font-size: 11px;
+  width:100%;
+}
+
+
+.hindiText{
+  font-family: "HindVadodara-Medium";
+  line-height: 23px;
+  font-size: 11px;
+  margin-top: 5px;
+  width:100%;
+}
+
+.pSpacing{
+  padding: 10px 0px 0px 0px;
+}
+.inner_Flex{
+  margin-top: 10px;
+}
+.voice_Text{
+  font-size: 25px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
