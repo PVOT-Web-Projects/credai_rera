@@ -21,14 +21,12 @@
   font-family: HindVadodara-SemiBold;
   src: url("font/HindVadodara-SemiBold.ttf");
 }
-html {
-  scroll-behavior: smooth;
-}
+
 body {
   margin: 0;
   scroll-behavior: smooth;
   background: #F7F5F2;
-  overflow-x: hidden!important;
+  overflow-x:hidden!important;
  
 
 }
@@ -92,6 +90,7 @@ img {
   text-align: left;
   text-shadow: none !important;
 }
+
 .mobile_li {
   margin-top: 10px !important;
   margin-bottom: 10px !important;
@@ -181,7 +180,7 @@ header:hover {
 }
 .logoItem
 {
-  z-index: 99;
+  z-index:1;
 }
 
 .logoItemImages {
@@ -217,7 +216,7 @@ header:hover {
   position: fixed;
   top: 0;
   right: 0;
-  height: 100vh;
+  height: 100%;
   width: 300px;
   z-index: 999;
   background-color: white;
@@ -231,6 +230,7 @@ header:hover {
   transform: translateX(100%);
   padding-left: 10px;
   text-shadow: none !important;
+ 
 }
 
 .sidebar li {
