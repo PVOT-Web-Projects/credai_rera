@@ -1500,29 +1500,29 @@ video {
 
 @media screen and (max-width: 768px) {
   .slide-track {
-    width: calc(100px * 20);
+    width: calc(130px * 20);
   }
   .slide-track2 {
-    width: calc(100px * 20);
+    width: calc(130px * 20);
   }
   .slide {
-    width: 100px;
+    width: 130px;
   }
 .slide img {
-transform: scale(0.8)
+transform: scale(1)
 };
   @keyframes scroll {
     0% {
       transform: translateX(0px);
     }
     100% {
-      transform: translateX(calc(-100px * 10));
+      transform: translateX(calc(-130px * 10));
     }
   }
 
   @keyframes scroll2 {
     0% {
-      transform: translateX(calc(-100px * 5));
+      transform: translateX(calc(-130px * 5));
     }
     100% {
       transform:translateX(0px) ;
