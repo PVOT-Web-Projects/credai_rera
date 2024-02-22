@@ -125,6 +125,7 @@ header:hover {
   text-align: left;
   margin: 0;
   font-family: "Roobert-Medium";
+  padding-bottom: 20px;
 }
 .mail_header a {
   color: #000;
@@ -2985,11 +2986,11 @@ padding:1.5rem  3rem;
   
   .slider::before,
   .slider::after {
-    background: linear-gradient(
+    /* background: linear-gradient(
       to right,
       rgba(255, 255, 255, 1) 0%,
       rgba(255, 255, 255, 0) 100%
-    );
+    ); */
     content: "";
     height: 163px;
     position: absolute;
@@ -3060,11 +3061,11 @@ padding:1.5rem  3rem;
   }
   .slider::before,
   .slider::after {
-    background: linear-gradient(
+    /* background: linear-gradient(
       to right,
       rgba(255, 255, 255, 1) 0%,
       rgba(255, 255, 255, 0) 100%
-    );
+    ); */
     content: "";
     height: 163px;
     position: absolute;
