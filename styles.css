@@ -30,9 +30,9 @@ body {
   background: #F7F5F2;
 
 }
-body::-webkit-scrollbar {
+/* body::-webkit-scrollbar {
   display: none;
-}
+} */
 img {
   max-width: 100%;
   display: block;
@@ -1871,7 +1871,7 @@ video {
   display: none;
 }
 .accordian_Section {
-  padding: 3rem 12rem;
+  padding: 0rem 12rem;
 }
 
 .accordian_Section_content {
@@ -2283,7 +2283,7 @@ input.check-toggle-round-flat:checked + label:after {
 }
 @media only screen and (min-width: 1500px) {
   .accordian_Section {
-    padding: 4rem 12rem;
+    padding: 0rem 12rem;
   }
 }
 @media (max-width: 1199px) {
@@ -2443,6 +2443,12 @@ input.check-toggle-round-flat:checked + label:after {
 /* footer */
 .footer_container {
   margin: 2rem 2rem;
+}
+.footer_disc{
+  padding: 0 6rem;
+    width: 70%;
+    font-size: 15px;
+    font-family: "Roobert-Regular";
 }
 
 .footer_flex {
@@ -2641,11 +2647,6 @@ input.check-toggle-round-flat + label:before {
   }
   .slider::before,
   .slider::after {
-    background: linear-gradient(
-      to right,
-      rgba(255, 255, 255, 1) 0%,
-      rgba(255, 255, 255, 0) 100%
-    );
     content: "";
     height: 163px;
     position: absolute;
@@ -3090,4 +3091,279 @@ padding:1.5rem  3rem;
 
 .bounce {
   animation: bounce 2.5s infinite;
+}
+
+
+/* sapna section */
+
+
+.spacing{
+  padding: 8rem 6rem 4rem 6rem;
+}
+
+.flex{
+  display: flex;
+  gap: 10px;
+}
+
+.voice_outer{
+  background-color: #157d43;
+  padding: 7.9rem 2rem;
+
+}
+.outer_second{
+  background-color: #123C63;
+  padding: 7.9rem 0rem;
+
+}
+.voice_Text{
+  color: white;
+    font-size: 50px;
+    font-weight: 500;
+    font-family: "Roobert-Regular";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex_1{
+  width:50%;
+  height:100%;
+}
+
+.flex_2{
+  width:50%;
+  height:100%;
+}
+
+
+.inner_Flex1{
+  width:50%
+}
+
+
+.inner_Flex2{
+  width:50%
+}
+
+.inner_Flex{
+  gap: 10px;
+  display: flex;
+  width:100%
+}
+
+.onlyForSpace{
+  margin-top: 10px;
+}
+
+
+.section5_image{
+  height:auto;
+  /* aspect-ratio: 16/9; */
+  object-fit: cover;
+  width: 100%;
+  
+}
+
+
+.englishText{
+  font-family: "Roobert-Regular";
+  font-size: 17px;
+  width:80%;
+}
+
+.pSpacing{
+ padding:15px 20px;
+}
+
+.hindiText{
+  font-family: "HindVadodara-Medium";
+  line-height: 27.71px;
+  font-size: 17px;
+  margin-top: 5px;
+  width:80%;
+}
+
+
+
+
+@media(max-width:1024px){
+  .voice_outer{
+    background-color: #157d43;
+    padding: 4rem 0rem;
+  
+  }
+  .outer_second{
+    background-color: #123C63;
+    padding: 3.5rem 0rem;
+  
+  }
+  .voice_Text{
+    color: white;
+      font-size: 40px;
+      font-weight: 500;
+      font-family: "Roobert-Regular";
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .englishText{
+    font-family: "Roobert-Regular";
+    font-size: 16px;
+    width:100%;
+  }
+  
+  .pSpacing{
+    padding: 15px 10px 0px 15px;
+  }
+  
+  .hindiText{
+    font-family: "HindVadodara-Medium";
+    line-height: 27.71px;
+    font-size: 16px;
+    margin-top: 5px;
+    width:100%;
+  }
+
+
+}
+
+@media(max-width:768px){
+  .spacing{
+    padding: 3rem 2rem 4rem 2rem;
+  }
+  .voice_outer{
+    background-color: #157d43;
+    padding: 2.9rem 0rem;
+  
+  }
+
+  .pSpacing{
+    padding: 15px 10px 0px 15px;
+  }
+  .voice_Text{
+    font-size: 38px;
+  }
+
+
+  .englishText{
+    font-family: "Roobert-Regular";
+    font-size: 14px;
+    width:100%;
+  }
+
+  
+  .hindiText{
+    font-family: "HindVadodara-Medium";
+    line-height: 25px;
+    font-size: 14px;
+    margin-top: 5px;
+    width:100%;
+  }
+
+
+
+  .outer_second{
+    background-color: #123C63;
+    padding: 1.5rem 0rem;
+  
+  }
+}
+
+
+@media(min-width:375px)and (max-width:500px){
+  .flex{
+    display: block;
+  }
+
+  .spacing{
+    padding: 3rem 1.8rem 4rem 1.8rem;
+  }
+
+  .flex_1{
+    width:100%;
+    height:100%;
+  }
+  
+  .flex_2{
+    width:100%;
+    height:100%;
+  }
+  .voice_outer {
+    padding: 1rem 0rem;
+  
+}
+.englishText{
+  font-family: "Roobert-Regular";
+  font-size: 12px;
+  width:100%;
+}
+
+
+.hindiText{
+  font-family: "HindVadodara-Medium";
+  line-height: 23px;
+  font-size: 12px;
+  margin-top: 5px;
+  width:100%;
+}
+.pSpacing{
+  padding: 10px 0px 0px 0px;
+}
+.inner_Flex{
+  margin-top: 10px;
+}
+
+}
+
+
+
+@media(min-width:220px)and (max-width:320px){
+  .flex{
+    display: block;
+  }
+
+  .spacing{
+    padding: 3rem 1.8rem 4rem 1.8rem;
+  }
+
+  .flex_1{
+    width:100%;
+    height:100%;
+  }
+  
+  .flex_2{
+    width:100%;
+    height:100%;
+  }
+  .voice_outer {
+    padding: 1rem 0rem;
+  
+}
+.englishText{
+  font-family: "Roobert-Regular";
+  font-size: 11px;
+  width:100%;
+}
+
+
+.hindiText{
+  font-family: "HindVadodara-Medium";
+  line-height: 23px;
+  font-size: 11px;
+  margin-top: 5px;
+  width:100%;
+}
+
+.pSpacing{
+  padding: 10px 0px 0px 0px;
+}
+.inner_Flex{
+  margin-top: 10px;
+}
+.voice_Text{
+  font-size: 25px;
+}
+
 }
