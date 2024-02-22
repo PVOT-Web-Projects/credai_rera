@@ -1429,11 +1429,6 @@ video {
 .slider::before,
 .slider::after {
   position: absolute;
-  background-image: linear-gradient(
-    to right,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(255, 255, 255, 0) 100%
-  );
   content: "";
   height: 100%;
   width: 25%;
@@ -1457,12 +1452,14 @@ video {
   display: flex;
   animation: scroll 28s linear infinite;
   justify-content: space-between;
+  mix-blend-mode: multiply;
 }
 .slide-track2 {
   width: calc(150px * 20);
   display: flex;
   animation: scroll2 20s linear infinite;
   justify-content: space-between;
+  mix-blend-mode: multiply;
 }
 
 /* .slide-track {
@@ -3078,5 +3075,19 @@ padding:1.5rem  3rem;
  background-color: transparent;
   color: white;
   border: none;
-  animation: ;
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-20px);
+  }
+  60% {
+    transform: translateY(-17px);
+  }
+}
+
+.bounce {
+  animation: bounce 2.5s infinite;
 }
