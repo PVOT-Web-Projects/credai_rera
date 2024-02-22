@@ -28,6 +28,8 @@ body {
   margin: 0;
   scroll-behavior: smooth;
   background: #F7F5F2;
+  overflow-x: hidden!important;
+ 
 
 }
 /* body::-webkit-scrollbar {
@@ -2298,6 +2300,10 @@ input.check-toggle-round-flat:checked + label:after {
   .accordian_Section {
     padding: 1rem 20px;
   }
+  .accordian_Section_content 
+  {
+    padding-bottom: 3rem;
+  }
 }
 @media (max-width: 575px) {
   .accordian_button {
@@ -3334,7 +3340,53 @@ padding:1.5rem  3rem;
 
 
 
-@media(min-width:220px)and (max-width:320px){
+
+ @media screen and (max-width: 375px){
+  
+  .flex{
+    display: block;
+  }
+
+  .spacing{
+    padding: 3rem 1.8rem 4rem 1.8rem;
+  }
+  
+  .flex_1,
+  .flex_2 {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .voice_outer {
+    padding: 1rem 0rem;
+  }
+  
+  .englishText {
+    font-size: 11px;
+    width: 100%;
+  }
+  
+  .hindiText {
+    font-size: 11px;
+    margin-top: 5px;
+    width: 100%;
+  }
+  
+  .pSpacing {
+    padding: 10px 0px 0px 0px;
+  }
+  
+  .inner_Flex {
+    margin-top: 10px;
+  }
+  
+  .voice_Text {
+    font-size: 38px;
+  }
+}
+
+
+@media (min-width:220px)and (max-width:320px){
   .flex{
     display: block;
   }
@@ -3379,6 +3431,4 @@ padding:1.5rem  3rem;
 }
 .voice_Text{
   font-size: 25px;
-}
-
 }
