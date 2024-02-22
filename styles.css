@@ -2447,7 +2447,7 @@ input.check-toggle-round-flat:checked + label:after {
   text-align: left;
   display: flex;
   justify-content: left;
-  padding:1rem 6rem !important;
+  padding:1rem 2rem 1rem 6rem!important;
 }
 
 .footer_flex {
