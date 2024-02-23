@@ -1537,7 +1537,7 @@ video {
   display: flex;
 }
 .faqs {
-  font-family: "Roobert-Medium";
+  font-family: "Roobert-Bold";
   font-size: 40px;
   font-weight: 200;
   line-height: 48px;
@@ -2029,7 +2029,7 @@ input.check-toggle-round-flat:checked+label:after {
   line-height: 71px;
   letter-spacing: 0em;
   text-align: left;
-  padding: 1.5rem 3rem;
+  padding: 1.5rem 4rem;
 }
 .footer_still p {
   margin: 0;
@@ -2774,6 +2774,7 @@ input.check-toggle-round-flat+label:before {
   }
   .voice_outer {
     padding: 1rem 1rem;
+    margin-top: 10px;
   }
   .englishText {
     font-size: 11px;
