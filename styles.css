@@ -1201,7 +1201,7 @@ video {
   }
   .slide img {
     transform: scale(1);
-    aspect-ratio: 4/2;
+    /* aspect-ratio: 4/2; */
   }
   @keyframes scroll {
     0% {
