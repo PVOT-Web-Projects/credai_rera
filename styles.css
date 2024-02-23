@@ -956,6 +956,7 @@ h2 {
   .credai_video_section {
     margin: 2rem 20px 0 20px;
   }
+ 
 }
 /* section 5 */
 .container_grid {
@@ -1408,6 +1409,7 @@ video {
 @media (max-width: 575px) {
   .first_slider_title {
     font-size: 30px;
+    padding: 0rem 0 1.5rem 0;
   }
   .logo_container {
     padding: 0 1.5rem;
@@ -1434,9 +1436,7 @@ video {
   flex: 1 0 50%;
   max-width: 50%;
 }
-.first_slider_title {
-  padding: 0rem 0 1.5rem 0;
-}
+
 .imgdiv {
   position: relative;
 }
@@ -2577,6 +2577,10 @@ input.check-toggle-round-flat+label:before {
   padding: 8rem 6rem 4rem 6rem;
   overflow-x: hidden !important;
 }
+.mobile_voice
+{
+  display: none;
+}
 .flex {
   display: flex;
   gap: 10px;
@@ -2696,7 +2700,7 @@ input.check-toggle-round-flat+label:before {
   }
   .hindiText {
     font-family: "HindVadodara-Medium";
-    line-height: 25px;
+    line-height: 20px;
     font-size: 14px;
     margin-top: 5px;
     width: 100%;
@@ -2706,7 +2710,19 @@ input.check-toggle-round-flat+label:before {
     padding: 1.5rem 0rem;
   }
 }
+@media (max-width:500px){
+  .mobile_voice
+  {
+    display: block;
+  }
+  .dekstop_voice
+  {
+    display: none;
+  }
+  
+}
 @media(min-width:375px)and (max-width:500px) {
+ 
   .flex {
     display: block;
   }
@@ -2723,6 +2739,7 @@ input.check-toggle-round-flat+label:before {
   }
   .voice_outer {
     padding: 1rem 0rem;
+    margin: 10px 0;
   }
   .englishText {
     font-family: "Roobert-Regular";
@@ -2731,7 +2748,7 @@ input.check-toggle-round-flat+label:before {
   }
   .hindiText {
     font-family: "HindVadodara-Medium";
-    line-height: 23px;
+    line-height: 17px;
     font-size: 12px;
     margin-top: 5px;
     width: 100%;
@@ -2756,7 +2773,7 @@ input.check-toggle-round-flat+label:before {
     height: 100%;
   }
   .voice_outer {
-    padding: 1rem 0rem;
+    padding: 1rem 1rem;
   }
   .englishText {
     font-size: 11px;
@@ -2766,6 +2783,7 @@ input.check-toggle-round-flat+label:before {
     font-size: 11px;
     margin-top: 5px;
     width: 100%;
+    line-height: 15px;
   }
   .pSpacing {
     padding: 10px 0px 0px 0px;
@@ -2774,7 +2792,7 @@ input.check-toggle-round-flat+label:before {
     margin-top: 10px;
   }
   .voice_Text {
-    font-size: 38px;
+    font-size: 32px;
   }
 }
 @media (min-width:220px)and (max-width:320px) 
@@ -2803,7 +2821,7 @@ input.check-toggle-round-flat+label:before {
   }
   .hindiText {
     font-family: "HindVadodara-Medium";
-    line-height: 23px;
+    line-height: 17px;
     font-size: 11px;
     margin-top: 5px;
     width: 100%;
@@ -2815,6 +2833,6 @@ input.check-toggle-round-flat+label:before {
     margin-top: 10px;
   }
   .voice_Text {
-    font-size: 25px;
+    font-size: 30px;
   }
 }
