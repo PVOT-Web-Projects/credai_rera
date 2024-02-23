@@ -234,7 +234,10 @@ header:hover {
   text-shadow: none !important;
  
 }
-
+/* .footer_sidebar
+{
+  margin-bottom: 2rem;
+} */
 .sidebar li {
   width: 100%;
   margin: 25px;
@@ -332,7 +335,8 @@ h2 {
   }
   .nav_img {
     padding-left: 1rem;
-    padding-top: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
   }
   .nav_img img {
     width: 100px;
@@ -635,7 +639,7 @@ width: 100%;
 
   .credai_rera_containter {
     /* margin: 0 50px; */
-    margin-top: 100px;
+    margin-top: 50px;
   }
 }
 @media (max-width: 575px) {
@@ -647,7 +651,7 @@ width: 100%;
 @media only screen and (max-width: 391px) {
   .credai_rera_containter {
     /* margin: 0 20px; */
-    margin-top: 100px;
+    margin-top: 50px;
   }
 
   .credai_rera_containter_text {
@@ -1767,6 +1771,10 @@ transform: scale(1)
   video {
     width: 250px;
   }
+  .section_slider_background
+  {
+    padding-bottom: 0;
+  }
   /* .logoItem{
     width: 28%;
   } */
@@ -1779,11 +1787,18 @@ transform: scale(1)
   flex-wrap: wrap;
   overflow: hidden;
 }
-
+.logo_container
+{
+  margin-bottom: 22px;
+}
 .image-wrapper {
   position: relative;
   flex: 1 0 50%;
   max-width: 50%;
+}
+.first_slider_title
+{
+  padding: 0rem 0 1.5rem 0;
 }
 .imgdiv {
   position: relative;
@@ -2337,7 +2352,7 @@ input.check-toggle-round-flat:checked + label:after {
 
 @media only screen and (max-width: 426px) {
   .accordian_Section {
-    padding: 1rem 20px;
+    padding: 2rem 20px;
   }
 
   .accordion .accordion-content {
@@ -3035,6 +3050,14 @@ padding:1.5rem  3rem;
   }
   .new {
     padding: 1.5rem;
+  }
+  .slide
+  {
+    height: 90px;
+  }
+  .slider
+  {
+    height: 90px;
   }
   .new_flex_text {
     font-size: 30px;
