@@ -1995,7 +1995,7 @@ input.check-toggle-round-flat:checked+label:after {
   text-align: left;
   display: flex;
   justify-content: left;
-  /* padding: 1rem 2rem 0rem 6rem !important; */
+  padding: 1rem 2rem 0rem 6rem !important;
 }
 .footer_flex {
   display: flex;
@@ -2589,7 +2589,7 @@ input.check-toggle-round-flat+label:before {
 }
 .voice_outer {
   background-color: #157d43;
-  padding: 7.9rem 2rem;
+  padding: 6.3rem 2rem;
 }
 .outer_second {
   background-color: #123C63;
