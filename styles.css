@@ -298,6 +298,11 @@ h2 {
   object-fit: cover;
   display: block;
 }
+.credai_banner_image2 {
+  width: 100%;
+  object-fit: cover;
+  display: none;
+}
 .credai_banner_image_mobile {
   display: none;
 }
@@ -459,6 +464,14 @@ h2 {
     width: 100%;
     height: 100%;
     object-fit: cover;
+  }
+  .credai_banner_image {
+   
+    display: none;
+  }
+  .credai_banner_image2 {
+   
+    display: block;
   }
 }
 @media only screen and (max-width: 361px) {
