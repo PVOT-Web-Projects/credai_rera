@@ -382,6 +382,10 @@ h2 {
 .diffrence-image {
   height: 100%;
 }
+.diff_list
+{
+  margin: 0!important;
+}
 .credai_hindiText {
   font-size: 26px;
 }
@@ -571,6 +575,7 @@ h2 {
   line-height: 23px;
   letter-spacing: 0em;
   text-align: left;
+  margin: 1rem 0;
 }
 .credai_diffrence_text_gujrati_container {
   text-align: center;
