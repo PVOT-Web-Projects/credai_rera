@@ -1,14 +1,14 @@
 @font-face {
-  font-family: Roobert-Medium;
-  src: url("font/Roobert-Medium.otf");
+  font-family: Euclid-Medium;
+  src: url("font/Euclid\ Circular\ A\ Medium.ttf");
 }
 @font-face {
-  font-family: Roobert-Bold;
-  src: url("font/Roobert-Bold.otf");
+  font-family: Euclid-Bold;
+  src: url("font/Euclid\ Circular\ A\ Bold.ttf");
 }
 @font-face {
-  font-family: Roobert-Regular;
-  src: url("font/Roobert-Regular.ttf");
+  font-family: Euclid-Regular;
+  src: url("font/Euclid\ Circular\ A\ Regular.ttf");
 }
 @font-face {
   font-family: HindVadodara-Medium;
@@ -59,7 +59,7 @@ body {
   max-width: 100%;
 }
 .nav_item {
-  font-family: "Roobert-Regular";
+  font-family: "Euclid-Regular";
   font-size: 18px;
   font-weight: 500;
   color: black;
@@ -68,7 +68,7 @@ body {
   text-align: left;
 }
 .nav_item1 {
-  font-family: "Roobert-Regular";
+  font-family: "Euclid-Regular";
   font-size: 18px;
   font-weight: 400;
   color: black;
@@ -106,7 +106,7 @@ header:hover {
   letter-spacing: 0em;
   text-align: left;
   margin: 0;
-  font-family: "Roobert-Medium";
+  font-family: "Euclid-Medium";
   padding-bottom: 20px;
 }
 .mail_header a {
@@ -126,7 +126,7 @@ header:hover {
   text-shadow: none;
 }
 .img_footer_header {
-  font-family: "Roobert-Medium";
+  font-family: "Euclid-Medium";
   font-size: 20px;
   font-weight: 500;
   line-height: 60px;
@@ -168,7 +168,7 @@ header:hover {
   font-weight: 600;
   font-size: 18px;
   text-decoration: none;
-  font-family: "Roobert-Regular";
+  font-family: "Euclid-Regular";
   width: 100%;
   text-decoration: none;
   padding: 12px 20px;
@@ -307,7 +307,7 @@ h2 {
   background-color: #00000033;
   left: 8rem;
   color: #fff;
-  font-family: "Roobert-Regular";
+  font-family: "Euclid-Regular";
   font-size: 30px;
   font-style: normal;
   font-weight: 400;
@@ -329,7 +329,7 @@ h2 {
 }
 .credai_banner_text_real {
   color: #fff;
-  font-family: "Roobert-Regular";
+  font-family: "Euclid-Regular";
   font-size: 30px;
   font-style: normal;
   font-weight: 700;
@@ -338,7 +338,7 @@ h2 {
   display: inline;
 }
 .Erarera {
-  font-family: "Roobert-Regular";
+  font-family: "Euclid-Regular";
   font-size: 40px;
   font-weight: 500;
   line-height: 58px;
@@ -348,7 +348,7 @@ h2 {
 }
 .credai_banner_tag_vision {
   color: #123c63;
-  font-family: "Roobert-bold";
+  font-family: "Euclid-bold";
   font-size: 34px;
   font-weight: 500;
   margin: 0 !important;
@@ -357,7 +357,7 @@ h2 {
 }
 .credai_banner_tag_and_creating {
   color: white !important;
-  font-family: "Roobert-Medium";
+  font-family: "Euclid-Medium";
   font-size: 40px;
   font-weight: 500;
   line-height: 58px;
@@ -369,7 +369,7 @@ h2 {
 .credai_banner_tag_hashtag {
   color: #000;
   text-align: center;
-  font-family: "Roobert-Regular";
+  font-family: "Euclid-Regular";
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -486,7 +486,7 @@ h2 {
 }
 .credai_rera_containter_title {
   color: #000;
-  font-family: "Roobert-Bold";
+  font-family: "Euclid-Bold";
   font-size: 35px;
   font-style: normal;
   font-weight: 400;
@@ -497,7 +497,7 @@ h2 {
 .credai_rera_containter_text {
   color: #000;
   text-align: center;
-  font-family: "Roobert-Regular";
+  font-family: "Euclid-Regular";
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -538,7 +538,7 @@ h2 {
 }
 .credai_diffrence_text {
   text-align: center;
-  font-family: "Roobert-Medium";
+  font-family: "Euclid-Medium";
   font-size: 35px;
   font-style: normal;
   font-weight: 400;
@@ -569,7 +569,7 @@ h2 {
 }
 .diff_text {
   width: 80%;
-  font-family: "Roobert-Medium";
+  font-family: "Euclid-Medium";
   font-size: 15px;
   font-weight: 400;
   line-height: 23px;
@@ -620,7 +620,7 @@ h2 {
   cursor: pointer;
   padding: 10px 20px;
   transition: 0.3s;
-  font-family: "Roobert-Medium";
+  font-family: "Euclid-Medium";
   font-size: 22px;
   font-weight: 500;
   line-height: 26px;
@@ -670,7 +670,7 @@ h2 {
   color: #000;
   text-align: right;
   padding-top: -1rem;
-  font-family: "Roobert-Medium";
+  font-family: "Euclid-Medium";
   font-size: 15px;
   font-style: normal;
   font-weight: 500;
@@ -680,7 +680,7 @@ h2 {
   color: #000;
   text-align: right;
   padding-top: 19px !important;
-  font-family: "Roobert-Medium";
+  font-family: "Euclid-Medium";
   font-size: 15px;
   font-style: normal;
   font-weight: 500;
@@ -715,7 +715,7 @@ h2 {
 }
 .credai-difference-container-lower-part-title {
   color: #fff;
-  font-family: "Roobert-bold";
+  font-family: "Euclid-bold";
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
@@ -726,7 +726,7 @@ h2 {
   padding-left: 2rem;
   padding-right: 1.8rem;
   color: #fff;
-  font-family: Roobert-Regular;
+  font-family: Euclid-Regular;
   font-size: 15px;
   font-weight: 400;
   line-height: 22px;
@@ -833,7 +833,7 @@ h2 {
     padding-left: 1rem;
     padding-right: 1rem;
     color: #fff;
-    font-family: Roobert-Regular;
+    font-family: Euclid-Regular;
     font-size: 15px;
     font-weight: 400;
     line-height: 22px;
@@ -842,7 +842,7 @@ h2 {
   }
   .credai-difference-container-lower-part-title {
     color: #fff;
-    font-family: "Roobert-bold";
+    font-family: "Euclid-bold";
     font-size: 32px;
     font-style: normal;
     font-weight: 700;
@@ -974,7 +974,7 @@ h2 {
   margin: 8px 0;
 }
 .voice_title {
-  font-family: "Roobert-Bold";
+  font-family: "Euclid-Bold";
   font-size: 40px;
   font-weight: 500;
   line-height: 48px;
@@ -1004,7 +1004,7 @@ h2 {
   position: relative;
 }
 .inner_text {
-  font-family: "Roobert-Regular";
+  font-family: "Euclid-Regular";
   font-size: 15px;
   font-weight: 400;
   line-height: 20px;
@@ -1107,7 +1107,7 @@ video {
   padding-bottom: 7rem;
 }
 .first_slider_title {
-  font-family: "Roobert-bold";
+  font-family: "Euclid-bold";
   font-size: 35px;
   font-weight: 400;
   line-height: 44px;
@@ -1254,7 +1254,7 @@ video {
   align-items: center;
 }
 .super {
-  font-family: Roobert-Regular;
+  font-family: Euclid-Regular;
   font-size: 15px;
   font-weight: 400;
   line-height: 22px;
@@ -1262,7 +1262,7 @@ video {
   text-align: left;
 }
 .imageText {
-  font-family: Roobert-Regular;
+  font-family: Euclid-Regular;
   font-size: 12px;
   font-weight: 500;
   padding-left: 25px;
@@ -1470,7 +1470,7 @@ video {
   color: #ffffff;
 }
 .credai_flex_video_text1 {
-  font-family: "Roobert-Medium";
+  font-family: "Euclid-Medium";
   font-size: 40px;
   font-weight: 500;
   line-height: 8px;
@@ -1478,7 +1478,7 @@ video {
   text-align: left;
 }
 .credai_flex_video_text2 {
-  font-family: "Roobert-bold";
+  font-family: "Euclid-bold";
   font-size: 40px;
   font-weight: 700;
   line-height: 8px;
@@ -1534,7 +1534,7 @@ video {
   padding-bottom: 10rem;
 }
 .faq {
-  font-family: "Roobert-Medium";
+  font-family: "Euclid-Medium";
   font-size: 40px;
   font-weight: 200;
   line-height: 48px;
@@ -1549,7 +1549,7 @@ video {
   display: flex;
 }
 .faqs {
-  font-family: "Roobert-Bold";
+  font-family: "Euclid-Bold";
   font-size: 35px;
   font-weight: 400;
   line-height: 44px;
@@ -1597,7 +1597,7 @@ video {
   width: 98%;
   padding: 0em 15px 0 0;
   color: #000000;
-  font-family: "Roobert-Medium";
+  font-family: "Euclid-Medium";
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
@@ -1612,7 +1612,7 @@ video {
 }
 .accordion button .accordion-title {
   padding: 0em 1.5em 0em 0;
-  font-family: "Roobert-Bold";
+  font-family: "Euclid-Bold";
   font-size: 15px;
   font-weight: 400;
   line-height: 23px;
@@ -1694,7 +1694,7 @@ video {
   /* border-radius: 50px; */
   border: none;
   cursor: pointer;
-  font-family: "Roobert-Regular";
+  font-family: "Euclid-Regular";
   font-size: 22px;
   font-weight: 500;
   line-height: 16px;
@@ -1709,7 +1709,7 @@ video {
   /* border-radius: 50px; */
   border: none !important;
   cursor: pointer !important;
-  font-family: "Roobert-Regular" !important;
+  font-family: "Euclid-Regular" !important;
   font-size: 22px !important;
   font-weight: 500 !important;
   line-height: 16px !important;
@@ -1725,7 +1725,7 @@ video {
   max-height: 0;
   overflow: hidden;
   color: #000000;
-  font-family: "Roobert-Medium";
+  font-family: "Euclid-Medium";
   font-size: 15px;
   font-weight: 400;
   line-height: 23px;
@@ -1929,7 +1929,7 @@ input.check-toggle-round-flat:checked+label:after {
   width: 45%;
 }
 .new_flex_text {
-  font-family: "Roobert-Medium";
+  font-family: "Euclid-Medium";
   font-size: 61px;
   font-weight: 500;
   line-height: 71px;
@@ -1939,7 +1939,7 @@ input.check-toggle-round-flat:checked+label:after {
   /* margin-bottom: 5rem!important; */
 }
 .text_content_two {
-  font-family: "Roobert-Medium";
+  font-family: "Euclid-Medium";
   font-size: 22px;
   font-weight: 500;
   line-height: 28px;
@@ -1970,7 +1970,7 @@ input.check-toggle-round-flat:checked+label:after {
   width: 100%;
 }
 .email_text input {
-  font-family: "Roobert-Medium";
+  font-family: "Euclid-Medium";
   width: 100%;
 }
 .email_button {
@@ -1987,7 +1987,7 @@ input.check-toggle-round-flat:checked+label:after {
   letter-spacing: 0em;
   text-align: left;
   border: none;
-  font-family: "Roobert-Regular";
+  font-family: "Euclid-Regular";
 }
 .email_text_inner {
   border: none;
@@ -2003,7 +2003,7 @@ input.check-toggle-round-flat:checked+label:after {
   margin: 2rem 2rem;
 }
 .footer_disc {
-  font-family: "Roobert-Regular";
+  font-family: "Euclid-Regular";
   font-size: 15px;
   font-weight: 400;
   line-height: 19px;
@@ -2015,7 +2015,7 @@ input.check-toggle-round-flat:checked+label:after {
 }
 .footer_flex {
   display: flex;
-  font-family: "Roobert-Regular";
+  font-family: "Euclid-Regular";
   height: 100%;
   align-items: center;
   margin: 0 0 20px;
@@ -2029,7 +2029,7 @@ input.check-toggle-round-flat:checked+label:after {
   /* padding: 1rem 3rem; */
 }
 .footer_link {
-  font-family: "Roobert-Regular";
+  font-family: "Euclid-Regular";
   font-size: 15px;
   font-weight: 400;
   line-height: 19px;
@@ -2043,7 +2043,7 @@ input.check-toggle-round-flat:checked+label:after {
   margin-left: 5px;
 }
 .footer_still {
-  font-family: "Roobert-Medium";
+  font-family: "Euclid-Medium";
   font-size: 55px;
   font-weight: 500;
   line-height: 71px;
@@ -2060,7 +2060,7 @@ input.check-toggle-round-flat:checked+label:after {
 
 }
 .mail {
-  /* font-family: Roobert; */
+  /* font-family: Euclid; */
   font-size: 47px;
   font-weight: 500;
   line-height: 60px;
@@ -2069,7 +2069,7 @@ input.check-toggle-round-flat:checked+label:after {
   margin: 0;
 }
 .tel {
-  /* font-family: Roobert; */
+  /* font-family: Euclid; */
   font-size: 47px;
   font-weight: 500;
   line-height: 60px;
@@ -2079,7 +2079,7 @@ input.check-toggle-round-flat:checked+label:after {
   margin: 0;
 }
 .reference {
-  /* font-family: Roobert; */
+  /* font-family: Euclid; */
   font-size: 22px;
   font-weight: 500;
   line-height: 28px;
@@ -2099,7 +2099,7 @@ input.check-toggle-round-flat:checked+label:after {
   width: 180px;
 }
 .img_footer1 {
-  font-family: "Roobert-Medium";
+  font-family: "Euclid-Medium";
   font-size: 47px;
   font-weight: 500;
   line-height: 60px;
@@ -2114,7 +2114,8 @@ input.check-toggle-round-flat:checked+label:after {
   color: #666666;
 }
 .footer_icon {
-  padding-right: 5px;
+  padding-right: 10px;
+  padding-top: 10px;
 }
 .video_thmb {
   width: 100%;
@@ -2162,7 +2163,7 @@ input.check-toggle-round-flat+label:before {
   text-align: center;
   padding-left: 1rem;
   font-size: 47px;
-  font-family: "Roobert-Regular";
+  font-family: "Euclid-Regular";
   position: "absolute";
   top: 50%;
   left: 0%;
@@ -2230,7 +2231,7 @@ input.check-toggle-round-flat+label:before {
 }
 @media (max-width: 1199px) {
   .new_flex_text {
-    font-family: "Roobert-Medium";
+    font-family: "Euclid-Medium";
     font-size: 40px;
     font-weight: 500;
     line-height: 50px;
@@ -2258,7 +2259,7 @@ input.check-toggle-round-flat+label:before {
     margin: 30px 10px;
   }
   .footer_still {
-    font-family: "Roobert-Medium";
+    font-family: "Euclid-Medium";
     font-size: 40px;
     font-weight: 500;
     line-height: 50px;
@@ -2295,7 +2296,7 @@ input.check-toggle-round-flat+label:before {
     height: auto;
   }
   .inner_text {
-    font-family: "Roobert-Regular";
+    font-family: "Euclid-Regular";
     font-size: 15px;
     font-weight: 400;
     letter-spacing: 0em;
@@ -2308,7 +2309,7 @@ input.check-toggle-round-flat+label:before {
     margin-top: 12px;
   }
   .footer_still {
-    font-family: "Roobert-Medium";
+    font-family: "Euclid-Medium";
     font-size: 20px;
     font-weight: 500;
     line-height: 50px;
@@ -2331,7 +2332,7 @@ input.check-toggle-round-flat+label:before {
     padding-left: 4rem;
   }
   .new_flex_text {
-    font-family: "Roobert-Medium";
+    font-family: "Euclid-Medium";
     font-size: 45px;
     font-weight: 500;
     line-height: 55px;
@@ -2377,7 +2378,7 @@ input.check-toggle-round-flat+label:before {
     width: 100px;
   }
   .footer_still {
-    font-family: "Roobert-Medium";
+    font-family: "Euclid-Medium";
     font-size: 25px;
     font-weight: 500;
     line-height: 30px;
@@ -2615,7 +2616,7 @@ input.check-toggle-round-flat+label:before {
   color: white;
   font-size: 50px;
   font-weight: 500;
-  font-family: "Roobert-Regular";
+  font-family: "Euclid-Regular";
   display: flex;
   justify-content: center;
   align-items: center;
@@ -2649,7 +2650,7 @@ input.check-toggle-round-flat+label:before {
   width: 100%;
 }
 .englishText {
-  font-family: "Roobert-Medium";
+  font-family: "Euclid-Medium";
   font-size: 15px;
   line-height: 23px;
   font-weight: 400;
@@ -2678,13 +2679,13 @@ input.check-toggle-round-flat+label:before {
     color: white;
     font-size: 40px;
     font-weight: 500;
-    font-family: "Roobert-Regular";
+    font-family: "Euclid-Regular";
     display: flex;
     justify-content: center;
     align-items: center;
   }
   .englishText {
-    font-family: "Roobert-Regular";
+    font-family: "Euclid-Regular";
     font-size: 16px;
     width: 100%;
   }
@@ -2714,7 +2715,7 @@ input.check-toggle-round-flat+label:before {
     font-size: 38px;
   }
   .englishText {
-    font-family: "Roobert-Regular";
+    font-family: "Euclid-Regular";
     font-size: 14px;
     width: 100%;
   }
@@ -2762,7 +2763,7 @@ input.check-toggle-round-flat+label:before {
     margin: 10px 0;
   }
   .englishText {
-    font-family: "Roobert-Regular";
+    font-family: "Euclid-Regular";
     font-size: 12px;
     width: 100%;
     line-height: 15px;
@@ -2838,7 +2839,7 @@ input.check-toggle-round-flat+label:before {
     padding: 1rem 0rem;
   }
   .englishText {
-    font-family: "Roobert-Regular";
+    font-family: "Euclid-Regular";
     font-size: 11px;
     width: 100%;
   }
