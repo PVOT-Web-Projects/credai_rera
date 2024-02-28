@@ -162,7 +162,7 @@ header:hover {
 .logoItemImages {
   object-fit: contain;
   mix-blend-mode: color-burn;
-  aspect-ratio: 4/2;
+  /* aspect-ratio: 4/2; */
 }
 .button_nav {
   font-weight: 600;
@@ -1064,7 +1064,7 @@ video {
   width: 25px;
   height: 25px;
   top: 5px;
-  right: 0;
+  right: 5px;
   background: url("images/close.svg");
   border-radius: 50%;
   background-size: cover;
@@ -1117,6 +1117,7 @@ video {
   justify-content: center;
   gap: 2rem;
   align-items: center;
+  padding: 0 17rem;
   margin: 0 0 50px 0;
 }
 .credai_logo_slider_title {
@@ -1188,6 +1189,12 @@ video {
   }
   100% {
     transform: translateX(0px);
+  }
+}
+@media screen and (max-width: 1200px) {
+  .logo_container 
+  {
+    padding: 0 10rem;
   }
 }
 @media screen and (max-width: 768px) {
@@ -1396,7 +1403,7 @@ video {
     width: 25px;
     height: 25px;
     top: 8px;
-    right: 0px !important;
+    right: 6px !important;
     background: url(images/close.svg);
     border-radius: 50%;
     background-size: cover;
@@ -1412,8 +1419,8 @@ video {
     padding: 0rem 0 1.5rem 0;
   }
   .logo_container {
-    padding: 0 1.5rem;
-    gap: 1.5rem;
+    padding: 0 1rem;
+    gap: 0.5rem;
   }
   video {
     width: 250px;
